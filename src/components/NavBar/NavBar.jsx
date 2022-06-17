@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import * as userService from "../../utilities/users-service"
+import './NavBar.css'
 
 export default function NavBar({ user, setUser }) {
     function handleLogOut() {
@@ -8,17 +9,24 @@ export default function NavBar({ user, setUser }) {
         // Update user state in App
         setUser(null)
     }
-    
-    
+
+
     return (
         <nav>
-            <Link to="/orders">Order History</Link>
-            &nbsp; &nbsp;| &nbsp;&nbsp;
-            <Link to="/orders/new">New Order</Link>
-            &nbsp;&nbsp;
-            <span>Hi {user.name}</span>
-            &nbsp;&nbsp;
-            <Link to="" onClick={handleLogOut}>Log Out</Link>
+            <div className="logo">
+                <img src="/tg_logo1.png" alt="" height="150" width="175" />
+            </div>
+            <div className="link-container">
+                <Link to="/orders" className='link'>About Me</Link>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <Link to="/orders/new" className='link'>Skills</Link>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <Link to="/orders" className='link'>Projects</Link>
+                &nbsp; &nbsp; &nbsp;&nbsp;
+                <Link to="/orders" className='link'>Contact Me</Link>
+            </div>
+
+            {/* <Link to="" onClick={handleLogOut}>Log Out</Link> */}
         </nav>
     )
 }

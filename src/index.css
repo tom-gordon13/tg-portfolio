@@ -8,6 +8,8 @@
   --orange: #F67F00;
   --text-light: #968c84;
   --text-dark: #615954;
+  --background-purple: #390C66;
+  --text-main: #5abcb5;
 }
 
 *, *:before, *:after {
@@ -21,7 +23,7 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--tan-4);
+  background-color: var(--background-purple);
   padding: 2vmin;
   height: 100vh;
 }

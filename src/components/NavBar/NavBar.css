@@ -1,0 +1,15 @@
+.logo {
+    height: 50px;
+    width: 5%;
+}
+
+.link-container {
+    margin-left: 70%;
+}
+
+.link {
+    color: var(--text-main);
+    font-size: x-large;
+    text-decoration: none;
+}
+

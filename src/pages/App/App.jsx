@@ -10,7 +10,8 @@ import NavBar from '../../components/NavBar/NavBar';
 
 
 function App() {
-  const [user, setUser] = useState(getUser())
+  // const [user, setUser] = useState(getUser())
+  const [user, setUser] = useState('tom')
   
   return (
     <main className="App">
