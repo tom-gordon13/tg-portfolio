@@ -14,15 +14,18 @@ export default function NavBar({ user, setUser }) {
     return (
         <nav>
             <div className="logo">
-                <img src="/tg_logo1.png" alt="" height="150" width="175" />
+                <Link to="/" className='link'>
+                    <img src="/tg_logo1.png" alt="" height="150" width="175" />
+                </Link>
+
             </div>
             <div className="link-container">
-                <Link to="/orders" className='link'>About Me</Link>
-                &nbsp; &nbsp; &nbsp;&nbsp;
-                <Link to="/orders/new" className='link'>Skills</Link>
-                &nbsp; &nbsp; &nbsp;&nbsp;
+                <Link to="/about-me" className='link'>About Me</Link>
+                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <Link to="skills" className='link'>Skills</Link>
+                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                 <Link to="/orders" className='link'>Projects</Link>
-                &nbsp; &nbsp; &nbsp;&nbsp;
+                &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                 <Link to="/orders" className='link'>Contact Me</Link>
             </div>
 

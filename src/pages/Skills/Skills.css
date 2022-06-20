@@ -1,0 +1,38 @@
+.main-container {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.main-header {
+    color: var(--text-main);
+    font-size: 500%;
+    font-weight: 500;
+}
+
+.secondary-header {
+    color: white;
+    text-align: left;
+    width: 100%;   
+}
+
+.skill-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 200%;
+}
+
+.icon {
+    margin: 4%;
+    font-size: 400%;
+    color: var(--text-main);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+}
