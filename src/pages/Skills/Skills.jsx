@@ -2,7 +2,7 @@ import './Skills.css'
 
 export default function Skills() {
     return (
-        <div className='main-container d-flex flex-column align-items-start'>
+        <div className='main-container-skills d-flex flex-column align-items-start'>
             <h1 className='main-header'>Skills</h1>
 
             <div className="skill-container">
