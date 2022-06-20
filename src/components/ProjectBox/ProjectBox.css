@@ -1,7 +1,66 @@
 .proj-container {
-    height: 32vmin;
-    width: 32vmin;
-    background-color: red;
-    margin-left: 5%;
-    border: 2px solid white;
+    height: 22vmin;
+    /* width: 32vmin; */
+    width: 50vmin;
+    /* background-color: white; */
+    margin-left: 2%;
+    /* border: 2px solid white; */
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+}
+
+.proj-img {
+    height: 25vmin;
+    width: 50vmin;
+}
+
+.proj-container:hover {
+    backdrop-filter: blur(2px); 
+}
+
+.proj-details {
+    top: 50px;
+    filter: none;
+    opacity: 1;
+    transition: height .2s, opacity .2s;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(166, 164, 164);
+}
+
+
+.proj-container:hover .proj-details {
+    visibility: visible;
+    color: blue;
+    height: 100%;
+    opacity: 80%;
+    
+}
+
+.inner-details {
+    visibility: hidden;
+    text-decoration: none;
+    opacity: 100%;
+    font-size: large;
+}
+
+.inner-details > a {
+    text-decoration: none;
+    color: blue;
+}
+
+.proj-container:hover .inner-details {
+    visibility: visible;
+    color: black;
+    height: 100%;
+    text-decoration: none;
+    opacity: 100%;
+}
+
+.proj-container:hover .learn-more {
+    visibility: hidden;
+    opacity: 100%;
+    
 }

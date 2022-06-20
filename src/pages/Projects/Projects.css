@@ -1,5 +1,5 @@
 .main-container {
-    margin-left: 50%;
+    margin-left: 20%;
     margin-top: 60%;
     width: 150%;
 }
@@ -20,8 +20,11 @@
     width: 50vw;
     /* background-color: white; */
     align-self: center;
-    margin: 10vh 10vw 10vh 16vw;
+    margin: 10vh 10vw 10vh 5vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
+
+

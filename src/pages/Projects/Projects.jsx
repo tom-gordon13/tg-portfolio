@@ -1,6 +1,18 @@
 import './Projects.css'
 import ProjectBox from '../../components/ProjectBox/ProjectBox'
 
+const projects = [
+    {
+        name: 'SuperFood',
+        description: "SuperFood is a full MERN-stack web application that allows users to track their nutrient intake on a daily basis.",
+        github_link: 'https://github.com/tom-gordon13/nutrition-tracker',
+        deployed_link: 'http://super-food-app.herokuapp.com/',
+        image: '/SuperFood_1.png',
+        technologies: ['JavaScript, React, MongoDB, Node.JS, Express']
+    }
+]
+
+
 
 export default function Projects() {
     return (
@@ -16,10 +28,8 @@ export default function Projects() {
 
                 <div className="col">
                     <div className='proj-main'>
-                        <ProjectBox />
-                        <ProjectBox />
-                        <ProjectBox />
-                        <ProjectBox />
+                        {projects.map(project =>
+                            <ProjectBox project={project}/>)}
                     </div>
                 </div>
             </div>
