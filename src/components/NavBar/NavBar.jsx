@@ -26,7 +26,7 @@ export default function NavBar({ user, setUser }) {
                 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                 <Link to="projects" className='link'>Projects</Link>
                 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                <Link to="" className='link'>Contact Me</Link>
+                <Link to="contact-me" className='link'>Contact Me</Link>
             </div>
 
             {/* <Link to="" onClick={handleLogOut}>Log Out</Link> */}
