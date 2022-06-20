@@ -1,0 +1,27 @@
+.main-container {
+    margin-left: 50%;
+    margin-top: 60%;
+    width: 150%;
+}
+
+.main-header {
+    color: var(--text-main);
+    font-size: 300%;
+    font-weight: 500;
+}
+
+.secondary-header {
+    color: white;
+    text-align: left;
+}
+
+.proj-main {
+    height: 74vh;
+    width: 50vw;
+    /* background-color: white; */
+    align-self: center;
+    margin: 10vh 10vw 10vh 16vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

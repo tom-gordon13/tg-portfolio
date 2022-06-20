@@ -1,0 +1,7 @@
+.proj-container {
+    height: 32vmin;
+    width: 32vmin;
+    background-color: red;
+    margin-left: 5%;
+    border: 2px solid white;
+}
