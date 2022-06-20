@@ -3,7 +3,7 @@ import './ProjectBox.css'
 export default function ProjectBox({ project }) {
 
     return (
-        <div>
+        <div className='proj-box'>
             <h1 className='text-white'>{project.name}</h1>
             <div className='proj-container' style={{
                 backgroundImage: `url(${project.image})`,
@@ -12,15 +12,15 @@ export default function ProjectBox({ project }) {
 
                 <div className="proj-details">
                     <h3 className='learn-more'>Learn More</h3>
-                    <div className="inner-details mt-0">
+                    <div className="inner-details">
                         <p><b>Description: </b>{project.description}</p>
-                        <div className="tech mb-2">
+                        <div className="tech mb-3">
                             <span><b>Technologies: </b></span>{project.technologies.map(tech =>
                                 <span>{tech}</span>)}
                         </div>
-                        <a href={project.github_link}>GitHub Link</a>
+                        <a href={project.github_link} target="_blank">GitHub Link</a>
                         &nbsp; &nbsp; &nbsp;&nbsp; | &nbsp;&nbsp; &nbsp;&nbsp;
-                        <a href={project.deployed_link}>Deployed Link</a>
+                        <a href={project.deployed_link} target="_blank">Deployed Link</a>
                     </div>
                 </div>
             </div>

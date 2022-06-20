@@ -1,3 +1,7 @@
+.proj-box {
+    margin-left: 5%;
+}
+
 .proj-container {
     height: 22vmin;
     /* width: 32vmin; */
@@ -43,7 +47,7 @@
     visibility: hidden;
     text-decoration: none;
     opacity: 100%;
-    font-size: large;
+    font-size: 100%;
 }
 
 .inner-details > a {

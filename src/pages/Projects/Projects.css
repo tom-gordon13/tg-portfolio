@@ -17,10 +17,10 @@
 
 .proj-main {
     height: 74vh;
-    width: 50vw;
+    width: 70vw;
     /* background-color: white; */
     align-self: center;
-    margin: 10vh 10vw 10vh 5vw;
+    margin: 10vh 1vw 10vh 5vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
