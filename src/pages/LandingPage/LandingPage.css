@@ -5,12 +5,48 @@
 }
 
 .main-header {
-    color: var(--text-main);
-    font-size: 500%;
-    font-weight: 500;
+    font-size: 600%;
+    font-weight: 700;
+    
 }
 
 .secondary-header {
-    color: white;
     text-align: left;
+    font-weight: 700;
 }
+
+.hr1 {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+  }
+
+.tertiary-header {
+    margin-top: 5%;
+    /* border-top: 2px solid white; */
+    padding-top: 2%;
+    color: var(--text-secondary);
+    text-align: left;
+    width: 190%;
+}
+
+.example-enter {
+    opacity: 0.01;
+  }
+  
+  .example-enter.example-enter-active {
+    opacity: 1;
+    transition: opacity 500ms ease-in;
+  }
+  
+  .example-leave {
+    opacity: 1;
+  }
+  
+  .example-leave.example-leave-active {
+    opacity: 0.01;
+    transition: opacity 300ms ease-in;
+  }
