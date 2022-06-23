@@ -2,9 +2,9 @@ import './Skills.css'
 
 export default function Skills() {
     return (
-        <div className='main-container-skills d-flex flex-column align-items-start'>
+        <div className='main-container-skills d-flex flex-column align-items-start mt-5'>
             <h1 className='main-header'>Skills</h1>
-
+            <hr className="hr1" />
             <div className="skill-container">
                 <h1 className='secondary-header'>Programming Languages</h1>
                 <div className="skill-list">
@@ -14,7 +14,7 @@ export default function Skills() {
                     <i className="devicon-css3-plain icon"><h3>CSS 3</h3></i>
                 </div>
             </div>
-
+            <hr className="hr1" />
             <div className="skill-container">
                 <h1 className='secondary-header'>Application Frameworks/Database Tools</h1>
                 <div className="skill-list">
@@ -26,7 +26,7 @@ export default function Skills() {
                     <i className="devicon-postgresql-plain icon"><h3>PostgreSQL</h3></i>
                     {/* <i className="devicon-microsoftsqlserver-plain icon"><h3>MS SQL Server</h3></i> */}
                 </div>
-
+                <hr className="hr1" />
                 <div className="skill-container">
                     <h1 className='secondary-header'>Additional Tools</h1>
                     <div className="skill-list">

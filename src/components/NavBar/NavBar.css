@@ -1,3 +1,7 @@
+:root { 
+    --text-main-hover:#83dcd6;
+  }
+
 .logo {
     height: 50px;
     width: 5%;
@@ -9,7 +13,14 @@
 
 .link {
     color: var(--text-main);
-    font-size: x-large;
+    font-size: xx-large;
     text-decoration: none;
+}
+
+.link:hover {
+    color: var(--text-main-hover);
+    font-size: xx-large;
+    text-decoration: none;
+    text-shadow: 30px 1000px 30px #36938c;
 }
 

@@ -27,8 +27,14 @@
     justify-content: start;
     align-items: center;
     width: 200%;
-    /* border-bottom: 2px solid var(--text-main); */
 }
+
+.hr1 {
+    margin: 0;
+    width: 30vw;              
+    background-color:#FFFF00;
+    height: 0;
+  }
 
 .icon {
     margin: 4%;
