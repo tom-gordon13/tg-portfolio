@@ -16,7 +16,15 @@
 
 .logo {
     margin-bottom: 10%;
-    margin-top: 10%;
+    margin-top: 16%;
+}
+
+.link-logo:hover {
+    color: var(--text-main-hover);
+    font-size: xx-large;
+    text-decoration: none;
+    text-shadow: 30px 1000px 30px #36938c;
+    cursor: pointer;
 }
 
 .link-container {
@@ -38,4 +46,34 @@
     text-shadow: 30px 1000px 30px #36938c;
     cursor: pointer;
 }
+
+.link-text {
+    visibility: hidden;
+}
+
+.link:hover > img {
+    visibility: hidden;
+}
+
+.link:hover > span { 
+    visibility: visible;
+}
+
+
+.nav-icon {
+    height: 5vmin;
+    width: 5vmin;
+    filter: invert(78%) sepia(53%) saturate(269%) hue-rotate(125deg) brightness(96%) contrast(87%);
+}
+
+.logo-holder {position:relative;  /*dimensions of image*/}
+
+.logo-holder .nav-icon,
+.logo-holder .link-text {transition: opacity 0.5s ease-in-out;}
+.logo-holder .link-text {position:absolute; top:0; left:0; opacity:0;}
+
+.logo-holder:hover .nav-icon {opacity:0;}
+.logo-holder:hover .link-text {opacity:1;}
+
+
 

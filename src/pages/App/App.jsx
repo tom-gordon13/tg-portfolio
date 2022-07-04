@@ -14,6 +14,8 @@ function App() {
     window.scrollTo(0, value)
   }
 
+  
+
   return (
     <main className="App">
 
@@ -28,10 +30,6 @@ function App() {
             {/*  Route components in here */}
 
             <Route path="" element={<LandingPage />} />
-            {/* <Route path="skill" element={<Skills />} />
-            <Route path="about-me" element={<AboutMe />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="contact-me" element={<ContactMe />} /> */}
 
           </Routes>
           </div>
