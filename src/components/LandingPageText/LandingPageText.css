@@ -1,14 +1,14 @@
 .main-container {
     margin-left: 15vw;
     margin-top: 30vh;
+    margin-bottom: 0;
     width: 30%;
-    height: 100vh;
+    height: 70vh;
 }
 
 .main-header {
     font-size: 600%;
     font-weight: 700;
-    
 }
 
 .secondary-header {

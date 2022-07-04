@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { CSSTransition } from 'react-transition-group';
-import './LandingPage.css'
+import './LandingPageText.css'
 
 
 export default function LandingPage() {
