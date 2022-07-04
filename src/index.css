@@ -8,8 +8,9 @@
   --orange: #F67F00;
   --text-light: #968c84;
   --text-dark: #615954;
-  --background-purple: #5f3687;
-  --text-main: #5abcb5;
+  --background-purple: #4f138b;
+  --secondary-purple: #3a165e;
+  --text-main: #78ded7;
   --text-secondary: rgb(206, 201, 201);
 }
 
@@ -25,7 +26,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--background-purple);
-  padding: 2vmin;
+  /* padding: 2vmin; */
   height: 100vh;
 }
 
