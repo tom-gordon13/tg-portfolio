@@ -2,18 +2,31 @@
     --text-main-hover:#83dcd6;
   }
 
+.nav-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 10%;
+    height: 100%;
+    width: 140px;
+    border-radius: 0;
+}
+
 .logo {
     height: 50px;
     width: 5%;
+    margin-bottom: 10%;
 }
 
 .link-container {
-    margin-left: 70%;
+    margin-left: 2vw;
+    position: fixed;
+    margin-top: 40vh;
 }
 
 .link {
     color: var(--text-main);
-    font-size: xx-large;
+    font-size: large;
     text-decoration: none;
 }
 

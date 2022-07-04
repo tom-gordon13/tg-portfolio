@@ -7,14 +7,14 @@ export default function NavBar() {
 
 
     return (
-        <nav>
+        <nav className='nav-container'>
             <div className="logo">
                 <Link to="/" className='link'>
                     <img src="/favicon.png" alt="" height="150" width="175" />
                 </Link>
 
             </div>
-            <div className="link-container">
+            <div className="link-container d-flex flex-column">
                 <Link to="skills" className='link'>Skills</Link>
                 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
                 <Link to="projects" className='link'>Projects</Link>

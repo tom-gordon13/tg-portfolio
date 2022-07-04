@@ -10,27 +10,33 @@ import ContactMe from '../ContactMe/ContactMe'
 
 
 function App() {
-  
-  
+
+
   return (
     <main className="App">
-   
-    <>
-    <NavBar />
-    
-    <Routes>
-      {/*  Route components in here */}
-      
-      <Route path="" element={<LandingPage />} />
-      <Route path="skills" element={<Skills />} />
-      <Route path="about-me" element={<AboutMe />} />
-      <Route path="projects" element={<Projects />} />
-      <Route path="contact-me" element={<ContactMe />} />
-      
-    </Routes>
-    </>
-    
-    
+
+      <>
+        <div className="row">
+          <div className="col-11">
+            <NavBar />
+          </div>
+
+          <div className="col">
+          <Routes>
+            {/*  Route components in here */}
+
+            <Route path="" element={<LandingPage />} />
+            <Route path="skills" element={<Skills />} />
+            <Route path="about-me" element={<AboutMe />} />
+            <Route path="projects" element={<Projects />} />
+            <Route path="contact-me" element={<ContactMe />} />
+
+          </Routes>
+          </div>
+        </div>
+      </>
+
+
     </main>
   );
 }
