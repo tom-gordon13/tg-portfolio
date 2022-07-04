@@ -72,7 +72,7 @@ export default function LandingPage() {
                     onEntered={removeOpacity}
                     // onExited={hideTest}
                     className={`animate__animated ${testClasses} tertiary-header`}>
-                    <h1>I'm a full-stack software engineer living in Boulder, Coloardo with a background in sales and financial analysis.</h1>
+                    <h1>I'm a full-stack software engineer living in Boulder, Colorado with a background in sales and financial analysis.</h1>
                 </CSSTransition>
             </div>
 
