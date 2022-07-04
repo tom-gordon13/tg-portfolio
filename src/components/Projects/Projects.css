@@ -1,6 +1,6 @@
 .main-container-projects {
-    margin-left: 20%;
-    margin-top: 60%;
+    margin-left: 12vw;
+    margin-top: 30vh;
     width: 150%;
 }
 
@@ -20,7 +20,7 @@
     width: 70vw;
     /* background-color: white; */
     align-self: center;
-    margin: 10vh 1vw 10vh 5vw;
+    margin: 10vh 1vw 10vh 12vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

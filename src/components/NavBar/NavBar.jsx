@@ -12,7 +12,7 @@ export default function NavBar({ currTop, linkClick }) {
         <nav className='nav-container'>
             <div className="logo">
                 <div to="/" className='link' id='0' key='0' onClick={handleClick}>
-                    <img src="/favicon_noBG.png" alt="" height="150" width="175" />
+                    <img src="/favicon_noBG.png" alt="" height="100" width="120" />
                 </div>
 
             </div>
