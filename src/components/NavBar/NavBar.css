@@ -66,7 +66,10 @@
     filter: invert(78%) sepia(53%) saturate(269%) hue-rotate(125deg) brightness(96%) contrast(87%);
 }
 
-.logo-holder {position:relative;  /*dimensions of image*/}
+.logo-holder {
+    position:relative;  
+    margin-bottom: 2vh;
+}
 
 .logo-holder .nav-icon,
 .logo-holder .link-text {transition: opacity 0.5s ease-in-out;}
