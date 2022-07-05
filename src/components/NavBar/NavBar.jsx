@@ -18,13 +18,19 @@ export default function NavBar({ currTop, linkClick }) {
             </div>
             <div className="link-container d-flex flex-column">
                 <div className='link logo-holder' id='1' key='1' onClick={handleClick}>
-                    <img src="/iconmonstr-tools-14.svg" alt="" className='nav-icon' />
-                    <span className="link-text">Skills</span>
+                    <img src="/iconmonstr-tools-14.svg" alt="" className='nav-icon' id='1' key='1' />
+                    <span className="link-text" id='1' key='1'>Skills</span>
                 </div>
                 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                <div className='link' id='2' key='2' onClick={handleClick}>Projects</div>
+                <div className='link logo-holder' id='2' key='2' onClick={handleClick}>
+                    <img src="/iconmonstr-code-7.svg" alt="" className='nav-icon' id='2' key='2' />
+                    <span className="link-text" id='2' key='2'>Project</span>
+                </div>
                 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
-                <div className='link' id='3' key='3' onClick={handleClick}>Contact Me</div>
+                <div className='link logo-holder' id='3' key='3' onClick={handleClick}>
+                    <img src="/iconmonstr-email-1.svg" alt="" className='nav-icon' id='3' key='3' />
+                    <span className="link-text" id='3' key='3'>Contact Me</span>
+                </div>
             </div>
 
 

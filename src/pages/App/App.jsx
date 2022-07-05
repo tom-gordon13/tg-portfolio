@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom'
 // import ReactCSSTransitionGroup from 'react-transition-group';
 import NavBar from '../../components/NavBar/NavBar';
 import LandingPage from '../LandingPage/LandingPage';
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 function App() {
@@ -14,7 +14,9 @@ function App() {
     window.scrollTo(0, value)
   }
 
-  
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
   return (
     <main className="App">

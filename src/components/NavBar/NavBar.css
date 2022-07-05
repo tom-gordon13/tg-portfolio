@@ -61,8 +61,8 @@
 
 
 .nav-icon {
-    height: 5vmin;
-    width: 5vmin;
+    height: 2.75vw;
+    width: 2.75vw;
     filter: invert(78%) sepia(53%) saturate(269%) hue-rotate(125deg) brightness(96%) contrast(87%);
 }
 
