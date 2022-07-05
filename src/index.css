@@ -25,9 +25,9 @@ body {
   sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--background-purple);
-  /* padding: 2vmin; */
-  height: 100vh;
+  /* background-color: var(--background-purple); */
+  background-image: linear-gradient(var(--background-purple), rgb(130, 51, 209));
+  /* height: 100vh; */
 }
 
 code {
