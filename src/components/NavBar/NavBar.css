@@ -5,6 +5,7 @@
 .nav-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     position: fixed;
     width: 8vw;
     height: 100vh;
@@ -49,6 +50,8 @@
 
 .link-text {
     visibility: hidden;
+    font-size: x-large;
+    
 }
 
 .link:hover > img {
@@ -68,7 +71,7 @@
 
 .logo-holder {
     position:relative;  
-    margin-bottom: 2vh;
+    margin-bottom: 25%;
 }
 
 .logo-holder .nav-icon,
