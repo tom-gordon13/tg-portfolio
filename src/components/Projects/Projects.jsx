@@ -40,17 +40,17 @@ const projects = [
 
 export default function Projects() {
     return (
-        <div>
+        <div className='projects-body'>
             <div className="row">
 
-                <div className="col-2">
+                <div className="col-4">
                     <div className='main-container-projects d-flex flex-column align-items-start'>
                         <h1 className='main-header-projects'>My Projects</h1>
                         <h1 className='secondary-header'>Hover over each box for more details, as well as links to both the code and deployed apps.</h1>
                     </div>
                 </div>
 
-                <div className="col">
+                <div className="col-1">
                     <div className='proj-main'>
                         {projects.map((project, idx) =>
                             <ProjectBox project={project} key={idx}/>)}

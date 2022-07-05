@@ -6,8 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* text-align: center; */
     position: fixed;
-    width: 8vw;
+    width: 10vw;
     height: 100vh;
     border-radius: 0;
     background-color: rgb(23, 5, 41);
@@ -49,7 +50,8 @@
 .link-text {
     visibility: hidden;
     font-size: x-large;
-    
+    inline-size: 500%;
+    margin-left: auto;
 }
 
 .link:hover > img {
@@ -70,11 +72,12 @@
 .logo-holder {
     position:relative;  
     margin-bottom: 80%;
+    
 }
 
 .logo-holder .nav-icon,
 .logo-holder .link-text {transition: opacity 0.5s ease-in-out;}
-.logo-holder .link-text {position:absolute; top:0; left:0; opacity:0;}
+.logo-holder .link-text {position:absolute; top:0; left: 100%; right: -200%; opacity:0;}
 
 .logo-holder:hover .nav-icon {opacity:0;}
 .logo-holder:hover .link-text {opacity:1;}

@@ -1,19 +1,23 @@
-.main-container {
+.main-container-about {
     margin-left: 15vw;
-    margin-top: 30vh;
+    margin-top: 20vh;
     margin-bottom: 0;
     width: 30%;
-    height: 70vh;
-}
-
-.main-header {
-    font-size: 600%;
-    font-weight: 700;
-}
-
-.secondary-header {
+    height: 80vh;
     text-align: left;
+}
+
+.main-header-about {
+    font-size: 400%;
     font-weight: 700;
+    color: var(--text-main)
+}
+
+.secondary-header-about {
+    font-weight: 400;
+    width: 200%;
+    color: white;
+    margin-bottom: 8%;
 }
 
 .hr1 {

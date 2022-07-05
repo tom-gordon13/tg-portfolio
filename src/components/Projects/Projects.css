@@ -1,18 +1,24 @@
+.projects-body {
+    height: 80vh;
+    margin-top: 20vh;
+}
+
 .main-container-projects {
-    margin-left: 12vw;
-    margin-top: 30vh;
-    width: 150%;
+    margin-left: 13vw;
+    margin-top: 25vh;
+    width: 20vw;
 }
 
 .main-header-projects {
     color: var(--text-main);
-    font-size: 300%;
-    font-weight: 500;
+    font-size: 400%;
+    font-weight: 400;
 }
 
 .secondary-header {
     color: white;
     text-align: left;
+    font-weight: 500;
 }
 
 .proj-main {
@@ -20,9 +26,9 @@
     width: 70vw;
     /* background-color: white; */
     align-self: center;
-    margin: 10vh 1vw 10vh 12vw;
+    margin: 10vh 1vw 10vh 0;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     flex-wrap: wrap;
 }
 
